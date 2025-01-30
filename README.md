@@ -25,27 +25,27 @@ This is an AI-powered Telegram chatbot designed to handle various user interacti
    ```bash
    git clone <repo_url>
    cd <repo_name>
-##Install the required Python packages:
+## Install the required Python packages:
 
-pip install -r requirements.txt
-##Set up your MongoDB and update the config.py file with your MongoDB URI.
+**pip install -r requirements.txt**
+## Set up your MongoDB and update the config.py file with your MongoDB URI.
 
 Add your Telegram Bot API Token to config.py:
 
 
-TELEGRAM_API_TOKEN = '<your_bot_token>'
+**TELEGRAM_API_TOKEN = '<your_bot_token>'**
 (Optional) If you're using Gemini Flash for image processing, ensure it's properly installed and configured.
 
 Usage
 Start the chatbot by running:
 
 
-##python bot.py
+## python bot.py
 Interact with the bot on Telegram. Type /start to begin registration.
 
-Contributing
+## Contributing
 Feel free to fork the repository and submit pull requests for improvements, bug fixes, or new features.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
